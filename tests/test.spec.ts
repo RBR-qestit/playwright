@@ -13,6 +13,6 @@ test.describe("Connection", () => {
     await page
       .getByRole("textbox", { name: "What needs to be done?" })
       .press("Enter");
-    await expect(page.getByTestId("todo-title")).toContainText("Add not");
+    await expect(page.getByTestId("todo-title")).toContainText("sdfsdfsdf");
   });
 });
